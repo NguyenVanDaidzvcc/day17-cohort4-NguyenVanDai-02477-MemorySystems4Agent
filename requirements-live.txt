@@ -1,0 +1,8 @@
+-r requirements.txt
+langchain>=1.0,<2.0
+langgraph>=1.0,<2.0
+langchain-openai>=1.0,<2.0
+langchain-google-genai>=4.0,<5.0
+langchain-anthropic>=1.0,<2.0
+langchain-ollama>=1.0,<2.0
+langchain-openrouter>=0.1,<1.0

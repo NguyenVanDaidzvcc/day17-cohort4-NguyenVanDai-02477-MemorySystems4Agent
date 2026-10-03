@@ -1,0 +1,49 @@
+{
+  "mode": "offline",
+  "quality_method": "heuristic_proxy",
+  "compact_threshold_tokens": 1200,
+  "compact_keep_messages": 6,
+  "profile_confidence_threshold": 0.85,
+  "suites": {
+    "Standard Benchmark": [
+      {
+        "agent_name": "Baseline",
+        "agent_tokens_only": 1084,
+        "prompt_tokens_processed": 23803,
+        "recall_score": 0.0,
+        "response_quality": 0.15,
+        "memory_growth_bytes": 0,
+        "compactions": 0
+      },
+      {
+        "agent_name": "Advanced",
+        "agent_tokens_only": 1085,
+        "prompt_tokens_processed": 34986,
+        "recall_score": 1.0,
+        "response_quality": 1.0,
+        "memory_growth_bytes": 328,
+        "compactions": 0
+      }
+    ],
+    "Long-Context Stress Benchmark": [
+      {
+        "agent_name": "Baseline",
+        "agent_tokens_only": 238,
+        "prompt_tokens_processed": 23805,
+        "recall_score": 0.0,
+        "response_quality": 0.15,
+        "memory_growth_bytes": 0,
+        "compactions": 0
+      },
+      {
+        "agent_name": "Advanced",
+        "agent_tokens_only": 259,
+        "prompt_tokens_processed": 15615,
+        "recall_score": 1.0,
+        "response_quality": 1.0,
+        "memory_growth_bytes": 243,
+        "compactions": 3
+      }
+    ]
+  }
+}
